@@ -31,10 +31,17 @@ const Index = () => {
             <Text>提供数据资源管理功能，包括各类数据资源的导入、整合和管理。</Text>
             <Text>显示已有数据资源的信息，如数据类型、来源、数量等。</Text>
             <Text>允许用户根据需要选择特定的学科内容资源。</Text>
-            <Text>功能原理图：</Text>
-            <Text>
-              1. 数据导入 {"->"} 2. 数据整合 {"->"} 3. 数据管理
-            </Text>
+            <Box display="flex" gap="2" alignItems="center">
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                数据导入
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                数据整合
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                数据管理
+              </Box>
+            </Box>
           </TabPanel>
           <TabPanel>
             <Text fontSize="lg" fontWeight="bold">
@@ -43,10 +50,20 @@ const Index = () => {
             <Text>展示知识图谱构建的流程和进度。</Text>
             <Text>提供知识图谱自动构建的设置选项，包括知识抽取算法、图谱关系定义等。</Text>
             <Text>显示知识图谱的可视化展示，包括实体关系图和属性信息。</Text>
-            <Text>功能原理图：</Text>
-            <Text>
-              1. 算法设置 {"->"} 2. 关系定义 {"->"} 3. 图谱构建 {"->"} 4. 可视化展示
-            </Text>
+            <Box display="flex" gap="2" alignItems="center">
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                算法设置
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                关系定义
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                图谱构建
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                可视化展示
+              </Box>
+            </Box>
           </TabPanel>
           <TabPanel>
             <Text fontSize="lg" fontWeight="bold">
@@ -55,10 +72,20 @@ const Index = () => {
             <Text>实现资源库知识信息的提炼和语义标签的自动打标。</Text>
             <Text>展示资源句子和段落的语义分析结果，以及与具体学科概念相关的标签。</Text>
             <Text>提供手动修正标签的功能，以优化语义分析准确率。</Text>
-            <Text>功能原理图：</Text>
-            <Text>
-              1. 信息提炼 {"->"} 2. 自动打标 {"->"} 3. 语义分析 {"->"} 4. 手动修正
-            </Text>
+            <Box display="flex" gap="2" alignItems="center">
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                信息提炼
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                自动打标
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                语义分析
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                手动修正
+              </Box>
+            </Box>
           </TabPanel>
           <TabPanel>
             <Text fontSize="lg" fontWeight="bold">
@@ -67,10 +94,20 @@ const Index = () => {
             <Text>提供学科知识库的搜索和浏览功能。</Text>
             <Text>允许用户按照学科分类、关键词搜索等方式查找知识库中的内容。</Text>
             <Text>展示搜索结果并支持用户查看详细信息。</Text>
-            <Text>功能原理图：</Text>
-            <Text>
-              1. 搜索输入 {"->"} 2. 分类过滤 {"->"} 3. 结果展示 {"->"} 4. 详细信息查看
-            </Text>
+            <Box display="flex" gap="2" alignItems="center">
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                搜索输入
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                分类过滤
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                结果展示
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                详细信息查看
+              </Box>
+            </Box>
           </TabPanel>
           <TabPanel>
             <Text fontSize="lg" fontWeight="bold">
@@ -79,10 +116,20 @@ const Index = () => {
             <Text>支持多用户协同访问知识图谱和学科知识库。</Text>
             <Text>提供用户权限管理功能，确保不同用户有不同的访问权限。</Text>
             <Text>每个用户可以根据个性化需求定制自己的知识浏览方式。</Text>
-            <Text>功能原理图：</Text>
-            <Text>
-              1. 用户登录 {"->"} 2. 权限验证 {"->"} 3. 协同访问 {"->"} 4. 个性化定制
-            </Text>
+            <Box display="flex" gap="2" alignItems="center">
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                用户登录
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                权限验证
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                协同访问
+              </Box>
+              <Box p="2" borderWidth="1px" borderRadius="md">
+                个性化定制
+              </Box>
+            </Box>
           </TabPanel>
         </TabPanels>
       </Tabs>
